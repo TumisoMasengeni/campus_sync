@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusSync Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <h2>CampusSync</h2>
+
+            <ul>
+            
+                <li><a class="active" href="assignments.html">
+<i class="fas fa-book"></i> Assignments
+</a></li>
+                <li><a class="active" href="planner.html">
+<i class="fas fa-calendar"></i> Study Planner
+</a></li>
+                <li><a class="active" href="groups.html">
+<i class="fas fa-users"></i> Group Projects
+</a></li>
+                <li><a class="active" href="notifications.html">
+<i class="fas fa-bell"></i> Notifications
+</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <div class="header">
+                <h1>Welcome Back, Student</h1>
+                <button>Add Task</button>
+            </div>
+
+            <!-- Cards -->
+            <div class="card">
+
+    <h3><i class="fas fa-book"></i> Upcoming Assignments</h3>
+
+    <p>3 assignments due this week</p>
+
+    <div class="progress-bar">
+        <div class="assignment-fill"></div>
+    </div>
+
+</div>
+
+               <div class="card">
+
+    <h3><i class="fas fa-chart-line"></i> Study Progress</h3>
+
+    <p>75% Weekly Goal Completed</p>
+
+    <div class="progress-bar">
+        <div class="progress-fill"></div>
+    </div>
+
+</div>
+
+                <div class="card">
+
+    <h3><i class="fas fa-users"></i> Group Projects</h3>
+
+    <p>2 active group projects</p>
+
+    <div class="progress-bar">
+        <div class="group-fill"></div>
+    </div>
+
+</div>
+
+            <!-- Task Table -->
+            <div class="task-section">
+
+                <h2>Recent Tasks</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Module</th>
+                        <th>Task</th>
+                        <th>Deadline</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>HCIN6222</td>
+                        <td>Prototype Design</td>
+                        <td>15 May 2026</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>INFX6211</td>
+                        <td>Research Report</td>
+                        <td>18 May 2026</td>
+                        <td>Not Started</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

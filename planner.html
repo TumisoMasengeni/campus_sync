@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner | CampusSync</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <h2>CampusSync</h2>
+
+            <ul>
+                <li><a class="active" href="dashboard.html">
+<i class="fas fa-house"></i> Dashboard
+</a></li>
+                <li><a class="active" href="assignments.html">
+<i class="fas fa-book"></i> Assignments
+</a></li>
+                <li><a class="active" href="groups.html">
+<i class="fas fa-users"></i> Group Projects
+</a></li>
+
+
+            <li><a class="active" href="notifications.html">
+<i class="fas fa-bell"></i> Notifications
+</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <div class="header">
+                <h1>Study Planner</h1>
+                <button id="schedule-btn">Create Schedule</button>
+            </div>
+
+            <!-- Study Schedule Cards -->
+            <div class="cards">
+
+                <div class="card">
+                    <h3>HCIN6222</h3>
+                    <p>Study Time: 2 Hours</p>
+                    <p>Topic: Prototype Design</p>
+                </div>
+
+                <div class="card">
+                    <h3>INFX6211</h3>
+                    <p>Study Time: 1.5 Hours</p>
+                    <p>Topic: Research Methods</p>
+                </div>
+
+                <div class="card">
+                    <h3>DATA6201</h3>
+                    <p>Study Time: 2.5 Hours</p>
+                    <p>Topic: Data Analysis</p>
+                </div>
+
+            </div>
+
+            <!-- Weekly Planner -->
+            <div class="planner-section">
+
+                <h2>Weekly Study Schedule</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Day</th>
+                        <th>Module</th>
+                        <th>Study Time</th>
+                        <th>Task</th>
+                    </tr>
+
+                    <tr>
+                        <td>Monday</td>
+                        <td>HCIN6222</td>
+                        <td>18:00 - 20:00</td>
+                        <td>Prototype Planning</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>INFX6211</td>
+                        <td>17:00 - 18:30</td>
+                        <td>Research Reading</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>DATA6201</td>
+                        <td>19:00 - 21:30</td>
+                        <td>Data Analysis Practice</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>HCIN6222</td>
+                        <td>18:00 - 20:00</td>
+                        <td>Website Development</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

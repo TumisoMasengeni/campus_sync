@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments | CampusSync</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+
+            <h2>CampusSync</h2>
+
+            <ul>
+                <li><a class="active" href="dashboard.html">
+<i class="fas fa-house"></i> Dashboard
+</a></li>
+                <li><a class="active" href="planner.html">
+<i class="fas fa-calendar"></i> Study Planner
+</a></li>
+
+                <li><a class="active" href="groups.html">
+<i class="fas fa-users"></i> Group Projects
+</a></li>
+
+         <li><a class="active" href="notifications.html">
+<i class="fas fa-bell"></i> Notifications
+</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <div class="header">
+                <h1>Assignment Tracker</h1>
+                <button>Add Assignment</button>
+            </div>
+
+            <!-- Assignment Form -->
+            <div class="form-section">
+
+                <h2>Add New Assignment</h2>
+
+                <form class="assignment-form">
+
+                    <input type="text" placeholder="Module Name">
+
+                    <input type="text" placeholder="Assignment Title">
+
+                    <input type="date">
+
+                    <select>
+                        <option>Priority Level</option>
+                        <option>High</option>
+                        <option>Medium</option>
+                        <option>Low</option>
+                    </select>
+
+                    <button type="submit">Save Assignment</button>
+
+                </form>
+
+            </div>
+
+            <!-- Assignment Table -->
+            <div class="task-section">
+
+                <h2>Current Assignments</h2>
+
+                <table>
+
+                    <tr>
+                        <th>Module</th>
+                        <th>Assignment</th>
+                        <th>Deadline</th>
+                        <th>Priority</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>HCIN6222</td>
+                        <td>Prototype Design</td>
+                        <td>15 May 2026</td>
+                        <td>High</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>INFX6211</td>
+                        <td>Research Report</td>
+                        <td>18 May 2026</td>
+                        <td>Medium</td>
+                        <td>Not Started</td>
+                    </tr>
+
+                    <tr>
+                        <td>DATA6201</td>
+                        <td>Data Analysis Task</td>
+                        <td>22 May 2026</td>
+                        <td>Low</td>
+                        <td>Completed</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
